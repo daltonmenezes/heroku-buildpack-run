@@ -53,7 +53,7 @@ else
   echo
   exit 1
 fi
-IFS=':' COMMANDS=($COMMANDS)
+IFS=';' COMMANDS=($COMMANDS)
 
 # Run commands
 for c in ${COMMANDS[@]}; do
